@@ -1,0 +1,59 @@
+body {
+    background: url("https://news-cdn.softpedia.com/images/news2/YoWindow-for-iOS-a-User-Friendly-Animated-Weather-App-18.png");
+  }
+  #nav{
+    text-align: center;
+    margin: auto;
+  }
+  input {
+    margin-top: 5%;
+    padding: .8%;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 30%;
+  }
+  button{
+    background-color: black;
+    color: aliceblue;
+    padding: .8%;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+  
+  #container {
+    width: 62%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    margin-top: 5%;
+  }
+  #container > div {
+    width: 50%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    text-align: left;
+    background: #4e5fdd;
+  }
+  #name{
+    font-size: larger;
+    text-align: center;
+    color: rgb(212, 250, 0);
+    
+  }
+  #container > iframe {
+    width: 50%;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .descriptionDiv {
+    display: flex;
+  }
+  .descriptionDiv > img {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+  }
